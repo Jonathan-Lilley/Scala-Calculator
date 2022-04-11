@@ -1,0 +1,31 @@
+[0m[[0m[0mdebug[0m] [0m[0mPackaging /home/kokio/Documents/Fun coding/SCALA/Calculator/target/scala-2.12/calculator_2.12-0.1.0-SNAPSHOT.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	tokenizer[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/kokio/Documents/Fun coding/SCALA/Calculator/target/scala-2.12/classes/tokenizer[0m
+[0m[[0m[0mdebug[0m] [0m[0m	tokenizer/Tokenizer$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/kokio/Documents/Fun coding/SCALA/Calculator/target/scala-2.12/classes/tokenizer/Tokenizer$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	tokenizer/Tokenizer$Token.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/kokio/Documents/Fun coding/SCALA/Calculator/target/scala-2.12/classes/tokenizer/Tokenizer$Token.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	tokenizer/Tokenizer.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/kokio/Documents/Fun coding/SCALA/Calculator/target/scala-2.12/classes/tokenizer/Tokenizer.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	main[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/kokio/Documents/Fun coding/SCALA/Calculator/target/scala-2.12/classes/main[0m
+[0m[[0m[0mdebug[0m] [0m[0m	main/Main$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/kokio/Documents/Fun coding/SCALA/Calculator/target/scala-2.12/classes/main/Main$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	main/Main.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/kokio/Documents/Fun coding/SCALA/Calculator/target/scala-2.12/classes/main/Main.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	evaluator[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/kokio/Documents/Fun coding/SCALA/Calculator/target/scala-2.12/classes/evaluator[0m
+[0m[[0m[0mdebug[0m] [0m[0m	evaluator/Evaluator.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/kokio/Documents/Fun coding/SCALA/Calculator/target/scala-2.12/classes/evaluator/Evaluator.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	evaluator/Evaluator$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/kokio/Documents/Fun coding/SCALA/Calculator/target/scala-2.12/classes/evaluator/Evaluator$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	syntaxtree[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/kokio/Documents/Fun coding/SCALA/Calculator/target/scala-2.12/classes/syntaxtree[0m
+[0m[[0m[0mdebug[0m] [0m[0m	syntaxtree/Parser.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/kokio/Documents/Fun coding/SCALA/Calculator/target/scala-2.12/classes/syntaxtree/Parser.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	syntaxtree/Parser$SyntaxTree.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/kokio/Documents/Fun coding/SCALA/Calculator/target/scala-2.12/classes/syntaxtree/Parser$SyntaxTree.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	syntaxtree/Parser$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/kokio/Documents/Fun coding/SCALA/Calculator/target/scala-2.12/classes/syntaxtree/Parser$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m
