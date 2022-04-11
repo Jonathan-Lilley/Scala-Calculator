@@ -44,13 +44,6 @@ object Parser {
     }
 
     def parse(tokens: List[Token]): SyntaxTree = {
-
-        /*println("recursed")
-        tokens.foreach(v => print(v.value+" "))
-        //println("operator")
-        //println(splitOnOps(operators,tokens)(0).value)
-        println()*/
-
         if (tokens.length == 1) new SyntaxTree(tokens(0),null,null)
         else if (tokens.length > 2 && checkSkip(tokens).isEmpty) parse(tokens.drop(1).dropRight(1))
         else new SyntaxTree(

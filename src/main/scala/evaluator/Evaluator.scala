@@ -1,5 +1,7 @@
 package evaluator
 
+import tokenizer.Tokenizer.tokenize
+import syntaxtree.Parser.parse
 import syntaxtree.Parser.SyntaxTree
 
 object Evaluator {
@@ -12,9 +14,13 @@ object Evaluator {
         case "^" => scala.math.pow(left,right)
     }
 
-    def evaluate(tree: SyntaxTree): Double = {
+    def evaluateTree(tree: SyntaxTree): Double = {
         if (tree.value.tokenLevel == "Value") tree.value.value.toDouble
-        else compute(tree.value.value, evaluate(tree.leftChild), evaluate(tree.rightChild))
+        else compute(tree.value.value, evaluateTree(tree.leftChild), evaluateTree(tree.rightChild))
+    }
+
+    def evaluate(eqn: String): Double = {
+        evaluateTree(parse(tokenize(eqn)))
     }
 
 }
